@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "e65944e9dedc6e91",
+    "type": "split",
+    "children": [
+      {
+        "id": "327bb2f527ebd748",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4ce89505bbf1089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Vector-Quantized Variation Autoencoder (VQ-VAE).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vector-Quantized Variation Autoencoder (VQ-VAE)"
+            }
+          },
+          {
+            "id": "5b0a06078017348c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/H divergence.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "H divergence"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfd3b7b3b0e095d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cbda4590c743857",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4455d2cb3e41d86f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6233f879a6233ee8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7629403eac0d6207",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 349.5
+  },
+  "right": {
+    "id": "c9679c6e4c89096c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a12283c623f4bfc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d88fb57974e809d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Paper/Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem"
+            }
+          },
+          {
+            "id": "56725f2506594776",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Paper/Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem"
+            }
+          },
+          {
+            "id": "c37894006c841362",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ebd41d70029481ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Paper/Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem"
+            }
+          },
+          {
+            "id": "48f4d0e13183e93f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Residual Edge-Graph Attention Network (residual E-GAT).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Residual Edge-Graph Attention Network (residual E-GAT)"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 442.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "smart-second-brain:Open S2B Chat": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "a4ce89505bbf1089",
+  "lastOpenFiles": [
+    "vault_root",
+    "Fleeting Notes/VC Dimension.md",
+    "Fleeting Notes/H divergence.md",
+    "Fleeting Notes/Inverse Fourier Transform.md",
+    "Fleeting Notes/Fourier Transform.md",
+    "Fleeting Notes/Characteristic Function.md",
+    "Fleeting Notes/Suprenum.md",
+    "Fleeting Notes/Generative Adversarial Network (GAN).md",
+    "Fleeting Notes/Codebook.md",
+    "Fleeting Notes/Vector-Quantized Variation Autoencoder (VQ-VAE).md",
+    "Files/Pasted image 20250115122110.png",
+    "Fleeting Notes/Residual Edge-Graph Attention Network (residual E-GAT).md",
+    "Chats/New Chat.md",
+    "Chats/What Is GNN RL.md",
+    "Fleeting Notes/Prior.md",
+    "Fleeting Notes/Variational Autoencoder.md",
+    "Fleeting Notes/Posterior.md",
+    "Fleeting Notes/Contrastive Predictive Coding.md",
+    "Fleeting Notes/Classifier Free Guidance.md",
+    "Paper/Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem.md",
+    "Paper/Attention, Learn to Solve Routing Problems!.md",
+    "Paper/DiCE The Infinitely Differentiable Monte Carlo Estimator.md",
+    "Paper/Service failure prediction in supply-chain networks.md",
+    "Paper/Neural Combinatorial Optimization with Reinforcement Learning.md",
+    "Paper/DiCE The Infinitely Differentiable Monte-Carlo Estimator.md",
+    "Fleeting Notes/Evol-Instruct method.md",
+    "Fleeting Notes/Topic Clustering.md",
+    "Files/Pasted image 20240905160326.png",
+    "Files/Pasted image 20240905160316.png",
+    "Files/Pasted image 20240905160307.png",
+    "Files/Pasted image 20240905160228.png",
+    "Files/Pasted image 20240905160139.png",
+    "Files/Pasted image 20240905160129.png",
+    "Files/Pasted image 20240905160058.png",
+    "Files/Pasted image 20240905160049.png",
+    "Files/Pasted image 20240905160046.png",
+    "Paper",
+    "Chats",
+    "Fleeting Notes",
+    "Backup of",
+    "Untitled.canvas",
+    "04 Questions From Papers",
+    "03 MOC Permanent Notes",
+    "SlipBox",
+    "Reference Notes/My Library.json",
+    "SlipBox",
+    "Templates"
+  ]
+}

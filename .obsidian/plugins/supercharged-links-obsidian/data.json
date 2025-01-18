@@ -1,0 +1,26 @@
+{
+  "targetAttributes": [],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "tag",
+      "name": "icon",
+      "value": "book",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "4f28-5171",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    }
+  ]
+}
