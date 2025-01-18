@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Vector-Quantized Variation Autoencoder (VQ-VAE).md",
+                "file": "Fleeting Notes/Absmax Quanitization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector-Quantized Variation Autoencoder (VQ-VAE)"
+              "title": "Absmax Quanitization"
             }
           },
           {
@@ -195,6 +195,19 @@
   },
   "active": "a4ce89505bbf1089",
   "lastOpenFiles": [
+    "Fleeting Notes/Bidirectional Encoder Representations from Transformers (BERT).md",
+    "Fleeting Notes/Benchmark.md",
+    "Fleeting Notes/Beam Search.md",
+    "Fleeting Notes/Bayesian Bandit.md",
+    "Fleeting Notes/Bandit, One Step MDP.md",
+    "Fleeting Notes/Attention Free Transformer.md",
+    "Fleeting Notes/Attention.md",
+    "Fleeting Notes/Agent.md",
+    "Fleeting Notes/Advantages of DIMES.md",
+    "Fleeting Notes/Advantage Function.md",
+    "Fleeting Notes/Actor Critic Policy Gradient.md",
+    "Fleeting Notes/Activate Aware Weight Quantization.md",
+    "Fleeting Notes/Vector-Quantized Variation Autoencoder (VQ-VAE).md",
     "vault_root",
     "Fleeting Notes/VC Dimension.md",
     "Fleeting Notes/H divergence.md",
@@ -204,24 +217,12 @@
     "Fleeting Notes/Suprenum.md",
     "Fleeting Notes/Generative Adversarial Network (GAN).md",
     "Fleeting Notes/Codebook.md",
-    "Fleeting Notes/Vector-Quantized Variation Autoencoder (VQ-VAE).md",
     "Files/Pasted image 20250115122110.png",
     "Fleeting Notes/Residual Edge-Graph Attention Network (residual E-GAT).md",
     "Chats/New Chat.md",
     "Chats/What Is GNN RL.md",
     "Fleeting Notes/Prior.md",
     "Fleeting Notes/Variational Autoencoder.md",
-    "Fleeting Notes/Posterior.md",
-    "Fleeting Notes/Contrastive Predictive Coding.md",
-    "Fleeting Notes/Classifier Free Guidance.md",
-    "Paper/Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem.md",
-    "Paper/Attention, Learn to Solve Routing Problems!.md",
-    "Paper/DiCE The Infinitely Differentiable Monte Carlo Estimator.md",
-    "Paper/Service failure prediction in supply-chain networks.md",
-    "Paper/Neural Combinatorial Optimization with Reinforcement Learning.md",
-    "Paper/DiCE The Infinitely Differentiable Monte-Carlo Estimator.md",
-    "Fleeting Notes/Evol-Instruct method.md",
-    "Fleeting Notes/Topic Clustering.md",
     "Files/Pasted image 20240905160326.png",
     "Files/Pasted image 20240905160316.png",
     "Files/Pasted image 20240905160307.png",
@@ -240,7 +241,6 @@
     "03 MOC Permanent Notes",
     "SlipBox",
     "Reference Notes/My Library.json",
-    "SlipBox",
-    "Templates"
+    "SlipBox"
   ]
 }
