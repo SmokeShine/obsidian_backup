@@ -5,7 +5,7 @@
   "initialAssistantMessageContent": "Hello, I am your assistant. How can I help you?",
   "isIncognitoMode": true,
   "ollamaGenModel": {
-    "model": "llama3.2",
+    "model": "llama3.2:3b",
     "baseUrl": "http://localhost:11434",
     "temperature": 0.3,
     "contextWindow": 2048,
