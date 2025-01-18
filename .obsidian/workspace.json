@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "043595ba7fe993ad",
+        "id": "35cc882b0fcef324",
         "type": "tabs",
         "children": [
           {
-            "id": "84641176906f40c9",
+            "id": "d1a5bcebad7326f1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84641176906f40c9",
+  "active": "d1a5bcebad7326f1",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Fleeting Notes/Absmax Quanitization.md",
