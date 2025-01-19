@@ -83,7 +83,7 @@ Tags: [[ICORES]]
 		1. Distance travelled
 3. As we have stable gradient updates, we can remove baseline as it was only included for stabilizing gradients
 ## DiCE Mish
-1. For improving gradient flow during [[backpropogation]]
+1. For improving gradient flow during [[backpropagation]]
 2. Replacement
 	1. LeakyRelu with Mish
 	2. Tanh with Mish

@@ -21,7 +21,7 @@ Tags:
 		2. decode after sampling
 		3. now for pixel 2, condition it on the first sample and run it autoregressively
 4. Quantization is not differentiable so simply copy the gradients from decoder to encoder. This is called [[Straight Through Estimation]]
-5. For the loss, we use [[Stop Gradient]] which makes gradient 0 during [[backpropogation]]. This is useful when we want to improve only one node type
+5. For the loss, we use [[Stop Gradient]] which makes gradient 0 during [[backpropagation]]. This is useful when we want to improve only one node type
 	1. Do it for codebook once
 	2. Do it for encoder weights once
 		1. both vectors could fluctuate a lot if done together
