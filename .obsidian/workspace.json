@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6a3e151abd4d7aba",
+        "id": "11aa059c30800ae0",
         "type": "tabs",
         "children": [
           {
-            "id": "82f60e03e69f6265",
+            "id": "758e3eae7ff0a09e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Secure Aggregation Principle.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Secure Aggregation Principle"
+              "title": "New tab"
             }
           }
         ],
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 349.5
   },
   "right": {
     "id": "c9679c6e4c89096c",
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paper/Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem"
+              "title": "Backlinks"
             }
           },
           {
@@ -159,14 +154,35 @@
               "icon": "lucide-file",
               "title": "Residual Edge-Graph Attention Network (residual E-GAT)"
             }
+          },
+          {
+            "id": "172a96cb569507e7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "ffc58e97a1056abe",
+            "type": "leaf",
+            "state": {
+              "type": "chat-view",
+              "state": {
+                "file": "Chats/New Chat.md"
+              },
+              "icon": "message-square",
+              "title": "New Chat"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 442.5,
-    "collapsed": true
+    "width": 442.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,34 +196,35 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "82f60e03e69f6265",
+  "active": "758e3eae7ff0a09e",
   "lastOpenFiles": [
+    "Chats/New Chat.md",
+    "Fleeting Notes/Residual Edge-Graph Attention Network (residual E-GAT).md",
+    "Fleeting Notes/Cryptography.md",
     "Fleeting Notes/Federated Learning.md",
     "Fleeting Notes/Secure Aggregation Principle.md",
-    "Fleeting Notes/Adaptive Federated Optimization.md",
-    "Fleeting Notes/Beam Search.md",
-    "Fleeting Notes/Differential Privacy.md",
-    "Fleeting Notes/Vector-Quantized Variation Autoencoder (VQ-VAE).md",
-    "Fleeting Notes/KL Divergence.md",
+    "Fleeting Notes/Zero Sum Protocol.md",
+    "Fleeting Notes/Pointer Network Implementation.md",
+    "Fleeting Notes/Forget Gate.md",
+    "Fleeting Notes/Input Gate.md",
+    "Files/Pasted image 20250121112344.png",
+    "Fleeting Notes/Mamba2.md",
+    "Fleeting Notes/Memory Modules.md",
+    "Fleeting Notes/State Space Model.md",
+    "Fleeting Notes/Mamba.md",
+    "Paper/Machine Learning for Combinatorial Optimization a Methodological Tour d’Horizon.md",
+    "Fleeting Notes/Griffin.md",
+    "Fleeting Notes/Temporal Difference Learning.md",
+    "Fleeting Notes/Extended Long Short-Term Memory (xLTSM).md",
+    "Fleeting Notes/Universality of Linear Recurrences (LRU).md",
+    "Fleeting Notes/Gated Linear Attention (GTA).md",
+    "Fleeting Notes/Hopfield network.md",
     "Fleeting Notes/backpropagation.md",
-    "Paper/Integrating Machine Learning and Optimisation to Solve the Capacitated Vehicle Routing Problem.md",
-    "Fleeting Notes/Actor Critic Policy Gradient.md",
-    "Fleeting Notes/Posterior.md",
-    "Fleeting Notes/B-Dissimilarity.md",
-    "Fleeting Notes/Federated Averaging.md",
     "Fleeting Notes/Federated Empirical Risk Minimization.md",
+    "Fleeting Notes/Federated Averaging.md",
     "Fleeting Notes/Federated Analytics.md",
-    "Fleeting Notes/Attention.md",
-    "conflict-files-obsidian-git.md",
-    "Fleeting Notes/Absmax Quanitization.md",
-    "Fleeting Notes/Bidirectional Encoder Representations from Transformers (BERT).md",
-    "Fleeting Notes/Benchmark.md",
-    "Fleeting Notes/Bayesian Bandit.md",
-    "Fleeting Notes/Bandit, One Step MDP.md",
-    "Fleeting Notes/Attention Free Transformer.md",
-    "Fleeting Notes/Agent.md",
-    "Fleeting Notes/Advantages of DIMES.md",
-    "Fleeting Notes/Advantage Function.md",
+    "Fleeting Notes/Differential Privacy.md",
+    "Fleeting Notes/B-Dissimilarity.md",
     "vault_root",
     "Files/Pasted image 20250115122110.png",
     "Files/Pasted image 20240905160326.png",
@@ -218,7 +235,6 @@
     "Files/Pasted image 20240905160129.png",
     "Files/Pasted image 20240905160058.png",
     "Files/Pasted image 20240905160049.png",
-    "Files/Pasted image 20240905160046.png",
     "Paper",
     "Chats",
     "Fleeting Notes",
