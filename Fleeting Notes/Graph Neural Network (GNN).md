@@ -6,6 +6,8 @@ Tags:
 
 Graphs are non grid, have no ordering of nodes/sequence, nodes/edges have multiple attributes, can expand/shrink over time
 
+- Can be seen as [[RNN]] but instead of time steps, we aggregate data in hidden state from neighbours and call in [[Message Passing]]
+
 GNN Layer -  Linear > Batchnorm > dropout > activation > attention > aggregation
 
 So, message and aggregation are not together.

@@ -6,6 +6,8 @@ Tags: [[Model Learning]]
 
 [[KL Divergence]]
 
+p(x)
+
 ---
 # References
 

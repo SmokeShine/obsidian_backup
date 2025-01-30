@@ -11,6 +11,8 @@ Tags: [[Monte Carlo Policy Gradient]]
 
 So, if policy is a linear combination of features and is differentiable, we can use Reinforce to improve the weights of the policy
 
+- It is similar to [[Stochastic Gradient Descent (SGD)]] and we take estimate from one trajectory sample of [[Monte Carlo Policy Gradient]] instead of batch
+	- We write the loss function and pytorch will take care of gradient term in the maths equation
 ---
 # References
 
