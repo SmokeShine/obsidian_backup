@@ -1,10 +1,8 @@
-202411191616
+202502061252
 Status: #idea
 Tags:
 
-# Absmax Quanitization
-
-
+# Langragian Loss
 
 
 ---
