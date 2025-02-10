@@ -47,8 +47,13 @@ Tags:
 	- not for Unsupervised Learning
 	- not for [[Reinforcement Learning]]
 
+- in case of spam/scam, waiting for centralized model to collect data and train could take a lot of time when the clients are already tagging the labels
+	- messages can have sensitive data and financial information
+	- if a client has a broken system, it cannot be detected as outlier for removal
+		- masking can be inferred of other system
 ---
 # References
 
 1. https://www.analyticsvidhya.com/blog/2021/05/federated-learning-a-beginners-guide/
 2. https://drive.google.com/file/d/1QGY2Zytp9XRSu95fX2lCld8DwfEdcHCG/view?pli=1
+3. https://pair.withgoogle.com/explorables/federated-learning/

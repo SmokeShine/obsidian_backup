@@ -15,7 +15,8 @@ Tags: [[Federated Learning]]
 		3. When aggregated, this masking will cancel each other
 	2. individual customer data cannot be decrypted
 	3. after aggregation, server can do decryption
-
+	4. Key exchange for masking happens with [[Diffe Hillman Key Exchange]]
+![[Pasted image 20250126213245.png]]
 ---
 # References
 
