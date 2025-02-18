@@ -10,6 +10,8 @@ Tags:
 		- Good latency
 	- Model is initialized centrally and each client receives a copy of the model
 - Centralized model receives the gradient updates
+	- A model checkpoint is sent to client with configuration
+		- Clients use this model to train with their local data
 	- Uses [[Secure Aggregation Principle]]
 	- Could be poisoned
 	- some clients may use the model more and hence send more updates than others
@@ -57,3 +59,4 @@ Tags:
 1. https://www.analyticsvidhya.com/blog/2021/05/federated-learning-a-beginners-guide/
 2. https://drive.google.com/file/d/1QGY2Zytp9XRSu95fX2lCld8DwfEdcHCG/view?pli=1
 3. https://pair.withgoogle.com/explorables/federated-learning/
+4. https://arxiv.org/pdf/1902.01046
