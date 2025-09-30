@@ -4,6 +4,7 @@ Tags: [[Federated Learning]]
 
 # Secure Aggregation Principle
 
+
 1. Server received encrypted gradient updates from each customer
 2. After aggregation, it can decrypt, so it does not know individual gradient updates
 3. Use [[Zero Sum Protocol]] 

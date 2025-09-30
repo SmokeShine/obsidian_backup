@@ -14,6 +14,8 @@ proximal - updates very near
 	1. meaningful update without excessive drift
 4. PPO Penalty
 5. PPO Clip
+
+![[Pasted image 20250312133549.png]]
 ---
 # References
 
