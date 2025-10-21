@@ -76,6 +76,28 @@ Tags:
 			- query cost is too high like in prefix sum
 		- find(start) and find(end) - if they return the same set, they are connected
 	- Uses up-tree data structure along with path compression
+	- find(child) should return parent. do this recursively, but there is no root on top. so, we choose a representative when we start the algorithm
+		- when merge happens for two trees, put one as another branch on representative node of another
+		- as it is recursive find, just update the parent of the moved branch
+		- use path compression, so that there is no need to call the find recursively multiple times
+			- once balanced, it will take O(1) time to find representative and confirm if it works
+- Hashing
+	- means making a long string into small representation
+	- Collision can happen and it depends on probability
+		- If there is unequal distribution, collision can happen earlier
+		- So, there is expectation and we can minimize it mathematically
+			- for first key, it will be 0% collision, then second key will 1-1/len(array)
+				- keep on doing this for all slots 
+				- practically, we choose length of array in such a way that we resize the array when we expect high number of collision after certain number of slots are already filled
+					- This is called load factor
+					- Resizing is expensive operation
+	- Linear probing - if already occupied, take the next open slot
+		- Deleting keys becomes expensive
+	- Double hashing - use two hashes to reduce collision
+		- one for index, another for offset
+	- Random hashing - use seed and random number generator to fill slots
+		- If it follows a distribution, it will cause collision
+			- in such a case, we take the next value from seed generator
 ---
 # References
 
