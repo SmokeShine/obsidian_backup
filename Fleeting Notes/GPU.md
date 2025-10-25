@@ -13,7 +13,18 @@ Tags:[[AI Engineering]]
 - MIP
 	- Can split GPU into virtual GPUs
 		- cant use nvlink anymore
+		- will show as separate GPU in nvidia-smi
 	- useful for 1 GPU and not a cluster
+- Can undervolt to reduce heat
+	- useful for long running jobs
+		- thermal throttling can kick in otherwise
+- To avoid fragmentation, pytorch does not return allocated memory for some time
+- in blackwell, GPU to CPU RAM swapping is possible
+	- Slow
+	- But if CPU RAM had already swapped to disk, this will be extremely slow, instead of just slow
+- When using docker, the cuda inside the docker should support the driver in the host
+	- everything is passthrough when using GPU
+- 
 ---
 # References
 
