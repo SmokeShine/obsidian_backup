@@ -10,6 +10,10 @@ Tags:[[AI Engineering]]
 		- warps are threads in parallel
 - Persistence mode - if gpu goes to sleep, it will take some time to take up the work again
 	- when enabled, the gpu does not go to sleep
+- MPS
+	- Multi processing Service
+	- Allows overlapping GPU process in one GPU
+		- can interweave now
 - MIP
 	- Can split GPU into virtual GPUs
 		- cant use nvlink anymore

@@ -23,7 +23,9 @@ Tags:
 			- Four directions
 				- Can be put in loop
 - Longest Increasing Path in Matrix
-	- 
+	- This is DP
+		- base condition - length is 1 at 0,0
+		- 
 ---
 # References
 
