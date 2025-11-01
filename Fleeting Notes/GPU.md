@@ -13,7 +13,7 @@ Tags:[[AI Engineering]]
 - MPS
 	- Multi processing Service
 	- Allows overlapping GPU process in one GPU
-		- can interweave now
+		- can interweave
 - MIP
 	- Can split GPU into virtual GPUs
 		- cant use nvlink anymore
@@ -28,7 +28,11 @@ Tags:[[AI Engineering]]
 	- But if CPU RAM had already swapped to disk, this will be extremely slow, instead of just slow
 - When using docker, the cuda inside the docker should support the driver in the host
 	- everything is passthrough when using GPU
-- 
+- Nvlink - same compute node
+	- NVSwitch - separate chip to connect GPUs
+- NIXL
+	- one nixl agent on both end points - source and destination
+		- they work together to decide which is the best path to take
 ---
 # References
 

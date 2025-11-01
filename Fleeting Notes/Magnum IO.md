@@ -5,6 +5,12 @@ Tags: [[AI Engineering]]
 # Magnum IO
 
 - Nvidia
+- All GPUs get some portion of data and calculated gradients 
+	- do backpropagation
+		- dont update local weight
+	- all reduce will provide copies of gradients from all other gpus
+		- average and update the local weights
+		- all models have the same weights now
 - Contains communication libraries
 	- Training
 		- NCCL
@@ -18,6 +24,12 @@ Tags: [[AI Engineering]]
 	- compress
 - DistributedDataParallel
 	- Fills the gradient bucket and then give it to communication layer in async
+- Congestion algorithms
+	- Cubic
+	- Round robin
+- InfiniBand-level RDMA
+	- Two GPUs can access each other memory using network without involving their CPUs
+	- So, NIC should be pinned to same NUMA unit as CPU
 ---
 # References
 
