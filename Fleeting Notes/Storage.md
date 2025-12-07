@@ -2,10 +2,14 @@
 Status: #idea
 Tags:
 
-# Stoage
+# Storage
 - For multi system training, reading from one single source can become a bottleneck due to read operations
 	- We can change read size and write size
-
+- if GPU can directly access storage instead of via CPU, then it will speed up
+	- ML uses shuffling data for training
+		- Read head has speed and can read some more memory address, it will help in sequential 
+		- but for random access, this will slow down
+			- caching memory assuming data will be reused is wasted
 ---
 # References
 
