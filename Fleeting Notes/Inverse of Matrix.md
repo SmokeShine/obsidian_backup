@@ -14,6 +14,10 @@ Tags: [[Linear Algebra]]
 - It is a very expensive operation even when we know the algorithm
 - During [[LU Factorization]], if the diagonal has a zero, we cannot divide by zero and the inverse will not exist
 	- so, if two equations are same, subtracting will give 0 even on diagonal and hence zero determinant and matrix has no inverse
+- for 2D matrix, divide by determinant
+	- swap the diagonal
+	- negate the rest two without swapping
+- Inverting the product of a bunch of matrices means writing them in the opposite order and inverting each of them.
 ---
 # References
 

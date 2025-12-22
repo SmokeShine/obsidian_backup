@@ -4,8 +4,10 @@ Tags: [[Linear Algebra]]
 
 # QR Factorization
 
-
+- A = QR
+	- Q is orthogonal columns
+	- R is upper triangular matrix
 ---
 # References
 
-1. 
+1. https://www.youtube.com/watch?v=qmRC8mTPGI8

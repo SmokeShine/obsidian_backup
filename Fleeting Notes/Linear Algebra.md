@@ -36,8 +36,29 @@ Matrix
 		1. As we often write .t form so we can use the same api of matrix multiplication instead of calling hadamard and then sum (kind of standardization)
 			1. but knowing vector-vector and vector-matrix can help knowing memory patterns and avoiding 0s that can boost speed
 	3. If we apply matrix multiplication between a row vector with a column vector, it will work like dot product
+8. So, if we a series of equations, we can convert them matrix form and then apply [[Gauss Jordon Elimination]] to find the values of vector which will give RHS
+	1. If number of equations < number of unknowns
+		1. Infinite solution
+	2. equations can be seen as lines and if they don't intersect each other, then we don't have a solution
+		1. So, if we have number of equations > number of unknowns, where some equation can be seen as violating constraints
+9. $A*x_s=b$
+	1. $A*x_n=0$
+	2. $A*x_s+ A*x_n=b + 0$
+		1. here b is also a vector and not a scalar
+	3. So, both vectors are solution
+		1. $x_s$ is a solution as well as $x_s+x_n$
+			1. multiply $x_n$ with k and that combined vector is also a solution
+		2. So, we will have infinite solution if even one vector $x_n$ gives $A*x_n=0$
+			1. this ties to number of equations < number of variables
+10. There is [[Null Space]], [[Column Space]] and [[Row Space]]
+
+
+
+We have [[Gaussian Elimination]] to find values for x that satisfies the equation. We  can have more than 1 solution if determinant is 0. Matrix won't invert in that case. We can take projection using dot product = 0 method on cos component. Inverse is expensive, so we need orthogonal matrices where we can transpose to get inverse. If we can break matrix into multiplication of matrices with special properties, then we can try to get rid of inverse operation. Eigen value is useful for taking power of matrix to tell how transition probability will move the vector on consequsitive multiplication. Eigen values is diagonal and power is directly applied to its elements.
+	
 ---
 # References
 
 1. https://math.stackexchange.com/questions/2354047/dot-product-vs-matrix-multiplication-is-the-later-a-special-case-of-the-first
 2. https://learning.edx.org/course/course-v1:UTAustinX+UT.5.05x+1T2022/block-v1:UTAustinX+UT.5.05x+1T2022+type@sequential+block@de9876de14394df395423b596b7884d4/block-v1:UTAustinX+UT.5.05x+1T2022+type@vertical+block@016aa13321b74df9adb6cb2c615084e7
+3. https://learning.edx.org/course/course-v1:UTAustinX+UT.5.05x+1T2022/block-v1:UTAustinX+UT.5.05x+1T2022+type@sequential+block@aae154ba4c54456cb007c1626383838a/block-v1:UTAustinX+UT.5.05x+1T2022+type@vertical+block@5478ac02bf8a40688c0d9869f27d99a9
